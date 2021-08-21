@@ -24,3 +24,8 @@ console.log(tambah);
 var Add = function (val1, val2) {
     return val1 + val2;
 };
+var fullName = function (first, last) {
+    if (last === void 0) { last = "Priyatin"; }
+    return first + " " + last;
+};
+console.log(fullName("Agus"));
