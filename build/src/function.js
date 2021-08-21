@@ -21,3 +21,6 @@ var kali = multiply(2, 4);
 console.log(kali);
 var tambah = add(2, 4);
 console.log(tambah);
+var Add = function (val1, val2) {
+    return val1 + val2;
+};

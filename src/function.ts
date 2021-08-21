@@ -25,3 +25,11 @@ const kali = multiply(2, 4);
 console.log(kali);
 const tambah = add(2, 4);
 console.log(tambah);
+
+// function as type
+
+type Tambah = (val1: number, val2: number) => number
+
+const Add: Tambah = (val1: number, val2: number): number => {
+    return val1 + val2
+}
