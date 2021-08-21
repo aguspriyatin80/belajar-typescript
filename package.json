@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "dev": "nodemon ./build/src/class.js"
+    "dev": "nodemon ./build/src/super-constructor.js"
   },
   "repository": {
     "type": "git",
