@@ -1,0 +1,36 @@
+PART 1: PERKENALAN
+- Typescript tidak bisa langsung dijalankan dibrowser tetapi harus dicompile dulu ke dalam plain javascript
+- typescriptlang.org
+
+PART 2: INSTALASI DAN KONFIGURASI Typescript
+# install package:
+npm init -y
+# install typescript: 
+npm i typescript - D // artinya typescript hanya akan diinstall pada saat development, ketika production hanya berupa hasil compile berupa file js saja
+# install nodemon:
+npm i nodemon
+# edit package.json pada bagian scripts menjadi sbb:
+"scripts":{
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/index.js"
+},
+# buat file tsconfig.json dengan perintah:
+./node_modules/.bin/tsc --init
+# edit/aktifkan file tsconfig.json:
+"allowJS":true,
+"outDir":"./build",
+# buat file typescript dengan nama apa saja misalnya index.ts di root  yang isinya console.log('hallo world')
+# compile file typescript, maka otomatis akan membuat file index.js di dalam folder build:
+npm run ts
+# edit file index.ts, maka file index.js otomatis akan berubah juga
+# dengan menggunakan nodemon, maka perintah yang digunakan adalah:
+npm run dev
+
+PART 3: TIPE DATA STRING
+# buka 2 terminal
+# buat folder src di root
+# tambahkan script berikut di bagian paling bawa pada file tsconfig.json:
+"includes" : [
+    "./src"
+]
