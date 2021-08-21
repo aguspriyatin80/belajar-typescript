@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
-    "dev": "nodemon ./build/index.js"
+    "dev": "nodemon ./build/src/enum.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,8 @@
   },
   "homepage": "https://github.com/aguspriyatin80/belajar-typescript#readme",
   "devDependencies": {
+    "nodemon": "^2.0.12",
     "typescript": "^4.3.5"
   },
-  "dependencies": {
-    "nodemon": "^2.0.12"
-  }
+  "dependencies": {}
 }
