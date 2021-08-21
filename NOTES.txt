@@ -37,3 +37,5 @@ PART 3: TIPE DATA STRING
 # buat file typeDasar.ts berisi console.log('typeDasar') di dalam folder src
 # edit file package.json pada bagian dev menjadi:
 "dev": "nodemon ./build/typeDasar.js"
+
+PART 4: TIPE DATA NUMBER DAN BOOLEAN
