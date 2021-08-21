@@ -14,3 +14,7 @@ isMarried = false;
 var heroes = "superman";
 heroes = true;
 heroes = 1;
+// union type
+var phone;
+phone = 6281313131;
+phone = "08131212121";

@@ -16,3 +16,9 @@ isMarried = false
 let heroes: any = "superman"
 heroes = true
 heroes = 1
+
+// union type
+
+let phone: number | string
+phone = 6281313131
+phone = "08131212121"
