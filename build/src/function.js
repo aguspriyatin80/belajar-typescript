@@ -9,4 +9,15 @@ function getAge() {
 function printName() {
     console.log("Print name");
 }
-printName();
+// printName();
+// Tipe data pada arguments
+function multiply(val1, val2) {
+    return val1 * val2;
+}
+function add(val1, val2) {
+    return val1 + val2;
+}
+var kali = multiply(2, 4);
+console.log(kali);
+var tambah = add(2, 4);
+console.log(tambah);
