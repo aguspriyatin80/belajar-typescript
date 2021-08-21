@@ -11,3 +11,8 @@ umur = 13
 let isMarried: boolean
 isMarried = true
 isMarried = false
+
+// any
+let heroes: any = "superman"
+heroes = true
+heroes = 1

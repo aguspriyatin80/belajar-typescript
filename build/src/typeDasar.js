@@ -10,3 +10,7 @@ umur = 13;
 var isMarried;
 isMarried = true;
 isMarried = false;
+// any
+var heroes = "superman";
+heroes = true;
+heroes = 1;
