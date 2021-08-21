@@ -28,4 +28,9 @@ var fullName = function (first, last) {
     if (last === void 0) { last = "Priyatin"; }
     return first + " " + last;
 };
-console.log(fullName("Agus"));
+// console.log(fullName("Agus"));
+// optionan parameter
+var getFullName = function (first, last) {
+    return first + last;
+};
+console.log("Agus");

@@ -38,4 +38,13 @@ const fullName = (first: string, last: string = "Priyatin"): string => {
     return first + " " + last
 }
 
-console.log(fullName("Agus"));
+// console.log(fullName("Agus"));
+
+
+// optionan parameter
+
+const getFullName = (first: string, last?: string): string => {
+    return first + last
+}
+
+console.log("Agus")
